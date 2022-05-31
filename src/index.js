@@ -3,6 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Modal from './lib';
 
+/**
+ * Example of use
+ * @returns modal component
+ */
 const App = () => {
   const [isVisible, setIsVisible] = React.useState(false)
   return (
